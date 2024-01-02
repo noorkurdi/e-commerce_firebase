@@ -1,0 +1,56 @@
+name: firebase_test
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.3.0
+  card_swiper: ^3.0.1
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  dynamic_height_grid_view: ^0.0.4
+  fancy_shimmer_image: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_iconly: ^1.0.2
+  flutter_svg: ^2.0.9
+  image_picker: ^1.0.5
+  ionicons: ^0.2.2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/admin_assets/images/
+    - assets/admin_assets/images/categories/
+    - assets/admin_assets/images/dashboard/
+    - assets/user_assets/images/
+    - assets/user_assets/images/bag/
+    - assets/user_assets/images/banners/
+    - assets/user_assets/images/categories/
+    - assets/user_assets/images/profile/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/core/utils/
+  filename: app_images.dart
+  field_prefix: null
